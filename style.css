@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Eczar', serif;
+}
+body{
+  background-color: #51E1DC;
+}
+.header{
+  text-align: center;
+  width: 80%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 40px auto;
+  background-color: black;
+  color: #FDB813;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 8px 8px 5px red;
+  border-radius: 10px;
+}
+
+.input{
+  width: 90%;
+  height: 40px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+}
+.input input{
+  margin-top: 10%;
+  padding: 10px 25% 10px 5%;
+  color: blue;
+  border-radius: 25px;
+  outline: none;
+  /*border: 2px solid orangered;*/
+  animation: kk 2s infinite;
+}
+@keyframes kk{
+  0%{border: 3px solid blue;}
+  25%{border: 3px solid red;}
+  50%{border: 3px solid orangered;}
+  75%{border: 3px solid orange;}
+  100%{border: 3px solid blue;}
+}
+.btn{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+button{
+  color: red;
+  background-color: transparent;
+  border-radius: 20px;
+  outline: none;
+  font-size: 20px;
+  padding: 2px 30px 2px 30px;
+  border: 2px solid red;
+
+}
+select{
+  display: flex;
+  margin:20% auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 5px 40px 5px 40px;
+  border-radius: 22px;
+  outline: none;
+  background-color: orange;
+  color: purple;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+
+
